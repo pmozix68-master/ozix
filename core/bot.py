@@ -541,12 +541,11 @@ BOT_WELCOME_TEXT = (
     "⚡ <b>Welcome to Ozix Userbot</b>\n\n"
     "A fast, modern Telegram userbot built for automation and control.\n\n"
     "🔒 <b>Security:</b> 99% safe — no need to generate session strings from unknown sources.\n"
-   
     "🚀 Manage Telegram like a pro."
     "</blockquote>"
 )
 
-BOT_WELCOME_IMAGE = "assets/ether_logo.png"
+BOT_WELCOME_IMAGE = "https://files.catbox.moe/8cnwvx.jpg"
 
 bot_dm_buttons = [
     [
