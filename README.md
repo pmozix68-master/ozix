@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://i.ibb.co/rKM4mfnx/x.jpg" width="60%" />
+<img src="(https://files.catbox.moe/9jeb8c.jpg)" width="60%" />
 
 # ⚡ Ether Userbot System
 **The Next-Gen Modular Telegram Framework**
