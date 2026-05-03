@@ -17,10 +17,10 @@ import base64
 
 # Official channels - DO NOT MODIFY
 _CHANNELS = {
-    "learning_bots": "https://t.me/learning_bots",
-    "ether_update": "https://t.me/Ether_Update",
-    "learning_bots_support": "https://t.me/LearningBotsSupport",
-    "ether_support": "https://t.me/EtherSupport"
+    "Ozix_bots": "",
+    "Ozix_update": "",
+    "Ozix_support": "",
+    "Ozix_support": ""
 }
 
 _INTEGRITY_SIGNATURE = base64.b64encode(
