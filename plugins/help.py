@@ -46,7 +46,7 @@ def setup(ether, db, owner_id):
         if not bot_username:
             await event.reply(
                 "<blockquote>"
-                "🔥 <b>Ether Help</b>\n\n"
+                "🔥 <b>Ozix Help</b>\n\n"
                 "<code>.commands</code> - List all commands\n"
                 "<code>.ping</code> - Check latency\n"
                 "<code>.shortcut &lt;name&gt;</code> - Save shortcut\n"
@@ -70,7 +70,7 @@ def setup(ether, db, owner_id):
             else:
                 await event.respond(
                     "<blockquote>"
-                    "🔥 <b>Ether Help</b>\n\n"
+                    "🔥 <b>Ozix Help</b>\n\n"
                     "<code>.commands</code> - List all commands\n"
                     "<code>.ping</code> - Check latency\n"
                     "<code>.shortcut &lt;name&gt;</code> - Save shortcut\n"
@@ -85,7 +85,7 @@ def setup(ether, db, owner_id):
             logger.error(f"Inline help failed: {e}")
             await event.respond(
                 "<blockquote>"
-                "🔥 <b>Ether Help</b>\n\n"
+                "🔥 <b>Ozix Help</b>\n\n"
                 "<code>.commands</code> - List all commands\n"
                 "<code>.ping</code> - Check latency\n"
                 "<code>.shortcut &lt;name&gt;</code> - Save shortcut\n"
