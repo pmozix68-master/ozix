@@ -38,7 +38,7 @@ logger = get_logger("EtherDM")
 DEFAULT_WELCOME_TEXT = (
     "<blockquote>"
     "👋 Hello!\n\n"
-    "You've just reached Ether Userbot ⚡️\n\n"
+    "You've just reached Ozix Userbot ⚡️\n\n"
     "This DM is protected to prevent spam and unwanted messages.\n\n"
     "⭐️ What you can do:\n\n"
     "• Wait for approval\n"
@@ -50,7 +50,7 @@ DEFAULT_WELCOME_TEXT = (
 DEFAULT_WELCOME_IMAGE = "assets/ether_logo.png"
 
 DEFAULT_WELCOME_BUTTONS = [
-    [{"text": "Userbot Repo", "url": "https://github.com/LearningBotsOfficial/Ether", "type": "url"}]
+    [{"text": "Userbot Repo", "url": "", "type": "url"}]
 ]
 
 
