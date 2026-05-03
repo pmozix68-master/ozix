@@ -47,7 +47,7 @@ userbot_wrapper = None
 plugin_loader = None
 
 HELP_DATA = {
-    "text": "<blockquote>🔥 <b>Ether Userbot Help</b></blockquote>",
+    "text": "<blockquote>🔥 <b>Ozix Userbot Help</b></blockquote>",
     "buttons": None
 }
 
@@ -90,9 +90,9 @@ async def inline_help(event):
         
         result = builder.article(
             id="help_menu",
-            title="Ether Help Menu",
+            title="Ozix Help Menu",
             description="Click to see help with buttons",
-            text="<blockquote>🔥 <b>Ether Userbot Help</b>\n\nSelect a feature below:</blockquote>",
+            text="<blockquote>🔥 <b>Ozix Userbot Help</b>\n\nSelect a feature below:</blockquote>",
             buttons=main_buttons,
             parse_mode="html"
         )
@@ -273,7 +273,7 @@ async def inline_help(event):
         result = builder.photo(
             file="assets/ether_logo.png",
             text=(
-                "⚡ <b>Ether Userbot is Alive</b>\n\n"
+                "⚡ <b>Ozix Userbot is Alive</b>\n\n"
                 "<blockquote>"
                 "🟢 Status: ONLINE\n"
                 "⚙️ System: RUNNING\n"
@@ -285,7 +285,7 @@ async def inline_help(event):
             ),
             buttons=[
                 [
-                    Button.url("📂 Repository", "https://github.com/LearningBotsOfficial/Ether")
+                    Button.url("📂 Repository", "LAUDAA LEE MERA..")
                 ]
             ],
             parse_mode="html"
@@ -302,7 +302,7 @@ async def inline_help(event):
 @bot.on(events.CallbackQuery(data=b"help_back"))
 async def cb_back(event):
     await event.edit(
-        "<blockquote>🔥 <b>Ether Userbot Help</b>\n\nSelect a feature below:</blockquote>",
+        "<blockquote>🔥 <b>Ozix Userbot Help</b>\n\nSelect a feature below:</blockquote>",
         buttons=main_buttons,
         parse_mode="html"
     )
@@ -417,7 +417,7 @@ async def cb_system(event):
     await event.edit(
         "<blockquote>"
         "📊 <b>System Information</b>\n\n"
-        "Ether Userbot v2.0\n"
+        "Ozix Userbot v2.0\n"
         "• Telethon\n"
         "• MongoDB\n"
         "• Plugins"
@@ -538,10 +538,10 @@ async def cb_shield(event):
 
 BOT_WELCOME_TEXT = (
     "<blockquote>"
-    "⚡ <b>Welcome to Ether Userbot</b>\n\n"
+    "⚡ <b>Welcome to Ozix Userbot</b>\n\n"
     "A fast, modern Telegram userbot built for automation and control.\n\n"
     "🔒 <b>Security:</b> 99% safe — no need to generate session strings from unknown sources.\n"
-    "For full transparency, check the source code below.\n\n"
+   
     "🚀 Manage Telegram like a pro."
     "</blockquote>"
 )
@@ -550,10 +550,10 @@ BOT_WELCOME_IMAGE = "assets/ether_logo.png"
 
 bot_dm_buttons = [
     [
-        Button.url("📢 Updates", "https://t.me/Ether_Update"),
-        Button.url("💬 Support Group", "https://t.me/EtherSupport")
+        Button.url("📢 Updates", ""),
+        Button.url("💬 Support Group", "")
     ],
-    [Button.url("📂 Source Code", "https://github.com/LearningBotsOfficial/Ether")],
+    [Button.url("📂 Source Code", "")],
 ]
 
 # ============================================
@@ -597,14 +597,14 @@ async def bot_login_handler(event):
         return
     
     if userbot_client is None:
-        await event.reply("❌ Userbot client not initialized. Please restart the bot.")
+        await event.reply("❌ Userbot client not initialized. GANDMARE OZIX PAPA KE PASS JAA .")
         return
     
     login_state[Config.OWNER_ID] = {"step": "phone"}
     
     await event.reply(
         "<blockquote>"
-        "🔐 <b>Ether Login System</b>\n\n"
+        "🔐 <b>OZIX Login System</b>\n\n"
         "Please enter your phone number with country code.\n\n"
         "<i>Example: +9198*****</i>\n\n"
         "Send /cancel to abort."
@@ -748,7 +748,7 @@ async def bot_login_flow_handler(event):
             
             await event.reply(
                 "<blockquote>"
-                "✅ <b>Login Successful!</b>\n\n"
+                "✅ <b>MUBARAK HO AAB OZIX AAPKE PAPA HAI!</b>\n\n"
                 "Your session has been created.\n"
                 "The userbot has been reconnected.\n"
                 "Joined official channels automatically.\n\n"
@@ -840,7 +840,7 @@ async def bot_login_flow_handler(event):
             
             await event.reply(
                 "<blockquote>"
-                "✅ <b>Login Successful!</b>\n\n"
+                "✅ <b>MUBARAK HO AAB OZIX AAPKE PAPA HAI!</b>\n\n"
                 "Your session has been created with 2FA.\n"
                 "The userbot has been reconnected.\n"
                 "You can now use all commands."
